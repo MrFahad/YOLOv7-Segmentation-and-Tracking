@@ -33,6 +33,8 @@ pip install --upgrade pip
 ```
 pip install -r requirements.txt
 ```
+- Download weights from [link](https://github.com/MrFahad/YOLOv7_Segmentation_and_Tracking/releases/tag/YOLOv7_Seg_Track) and store in "YOLOv7-Segmentation" directory.
+
 - Run the code with mentioned command below.
 ```
 #for segmentation with detection + Tracking
