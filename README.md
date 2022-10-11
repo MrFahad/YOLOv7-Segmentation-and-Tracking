@@ -45,15 +45,12 @@ python3 segment/predict.py --weights yolov7-seg.pt --source "fb1.mp4" --trk
 
 ### RESULTS
 <table>
-  <tr><td>Football Players Segmentation + Tracking</td></tr>
+  <tr><td>Segmentation + Tracking</td></tr>
   <tr>
     <td><img src="https://user-images.githubusercontent.com/62513924/190402435-931f0ee3-9af1-4399-8222-1028d5afbd1a.png" width=640 height=180></td>
-    <td><img src="https://user-images.githubusercontent.com/62513924/190402752-521b7815-bea8-4cef-8b36-54fb7a962244.png" width=640 height=180></td>
-    <td><img src="https://user-images.githubusercontent.com/62513924/191729411-a8d8b5e2-bdbf-4c0e-bd1b-a52e23f7c9d3.png" width=640 height=180></td>
   </tr>
   </tr>
  </table>
-
 
 ## Custom Data Labelling
 
@@ -127,22 +124,14 @@ python3 segment/train.py --data data/custom.yaml --batch 4 --weights '' --cfg yo
 ```
 python3 segment/predict.py --weights "runs/yolov7-seg/exp/weights/best.pt" --source "fb1.mp4"
 ```
-
-## RESULTS
+### RESULTS
 <table>
-  <tr>
-    <td>Car Semantic Segmentation</td>
-     <td>Car Semantic Segmentation</td>
-     <td>Person Segmentation + Tracking</td>
-     </tr>
+  <tr><td>Segmentation + Tracking</td></tr>
   <tr>
     <td><img src="https://user-images.githubusercontent.com/62513924/190402435-931f0ee3-9af1-4399-8222-1028d5afbd1a.png" width=640 height=180></td>
-    <td><img src="https://user-images.githubusercontent.com/62513924/190410343-ada838c6-e505-4248-8a76-fbc5996e091e.png" width=640 height=180></td>
-    <td><img src="https://user-images.githubusercontent.com/62513924/191729411-a8d8b5e2-bdbf-4c0e-bd1b-a52e23f7c9d3.png" width=640 height=180></td>
   </tr>
   </tr>
  </table>
-
 
 ## References
 - https://github.com/WongKinYiu/yolov7/tree/u7/seg
