@@ -45,9 +45,9 @@ python3 segment/predict.py --weights yolov7-seg.pt --source "fb1.mp4" --trk
 
 ### RESULTS
 <table>
-  <tr><td>Segmentation + Tracking</td></tr>
+  <tr><td>Football Players Segmentation + Tracking</td></tr>
   <tr>
-    <td><img src="https://github.com/MrFahad/YOLOv7_Segmentation_and_Tracking/blob/main/fb.png" width=400 height=120></td>
+    <td><img src="https://github.com/MrFahad/YOLOv7_Segmentation_and_Tracking/blob/main/fb.png" width=400 height=200></td>
   </tr>
   </tr>
  </table>
@@ -126,9 +126,9 @@ python3 segment/predict.py --weights "runs/yolov7-seg/exp/weights/best.pt" --sou
 ```
 ### RESULTS
 <table>
-  <tr><td>Segmentation + Tracking</td></tr>
+  <tr><td>Football Players Segmentation + Tracking</td></tr>
   <tr>
-    <td><img src="https://github.com/MrFahad/YOLOv7_Segmentation_and_Tracking/blob/main/fb.png" width=400 height=120></td>
+    <td><img src="https://github.com/MrFahad/YOLOv7_Segmentation_and_Tracking/blob/main/fb.png" width=400 height=200></td>
   </tr>
   </tr>
  </table>
