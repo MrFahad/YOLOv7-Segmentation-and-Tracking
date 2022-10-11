@@ -1,4 +1,4 @@
-# yolov7-Instance-Segmentation-and-Tracking
+# YOLOv7-Instance-Segmentation-and-Tracking
 
 
 ## Steps to run Code
