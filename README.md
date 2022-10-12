@@ -37,7 +37,7 @@ pip install -r requirements.txt
 
 - Run the code with mentioned command below.
 ```
-#for segmentation with detection + Tracking
+#For Segmentation with Detection + Tracking
 python segment/predict.py --weights yolov7-seg.pt --source "fb1.mp4" --trk
 ```
 
