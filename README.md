@@ -14,11 +14,11 @@ cd YOLOv7-Segmentation
 - Create a virtual envirnoment (Recommended, If you dont want to disturb python packages)
 ```
 ## For Linux Users
-python3 -m venv YOLOv7_Segmentation
+python -m venv YOLOv7_Segmentation
 source YOLOv7_Segmentation/bin/activate
 
 ## For Windows Users
-python3 -m venv YOLOv7_Segmentation
+python -m venv YOLOv7_Segmentation
 cd YOLOv7_Segmentation
 cd Scripts
 activate
@@ -38,7 +38,7 @@ pip install -r requirements.txt
 - Run the code with mentioned command below.
 ```
 #for segmentation with detection + Tracking
-python3 segment/predict.py --weights yolov7-seg.pt --source "fb1.mp4" --trk
+python segment/predict.py --weights yolov7-seg.pt --source "fb1.mp4" --trk
 ```
 
 - Output file will be created in the working directory with name <b>YOLOv7_Segmentation/runs/predict-seg/exp/"original-video-name.mp4"</b>
@@ -98,14 +98,9 @@ python3 segment/predict.py --weights yolov7-seg.pt --source "fb1.mp4" --trk
 
 - Move your (segmentation custom labelled data) inside "YOLOv7-Segmentation\data" folder by following mentioned structure.
 
-
-
 ![ss](https://user-images.githubusercontent.com/62513924/190388927-62a3ee84-bad8-4f59-806f-1185acdc8acb.png)
 
-
-
 - Go to the <b>data</b> folder, create a file with name <b>custom.yaml</b> and paste the mentioned code below inside that.
-
 ```
 train: "path to train folder"
 val: "path to validation folder"
@@ -117,12 +112,12 @@ names: [ 'car']
 
 - Go to the terminal, and run mentioned command below to start training.
 ```
-python3 segment/train.py --data data/custom.yaml --batch 4 --weights '' --cfg yolov7-seg.yaml --epochs 10 --name yolov7-seg --img 640 --hyp hyp.scratch-high.yaml
+python segment/train.py --data data/custom.yaml --batch 4 --weights '' --cfg yolov7-seg.yaml --epochs 10 --name yolov7-seg --img 640 --hyp hyp.scratch-high.yaml
 ```
 
 ## Custom Model Detection Command
 ```
-python3 segment/predict.py --weights "runs/yolov7-seg/exp/weights/best.pt" --source "fb1.mp4"
+python segment/predict.py --weights "runs/yolov7-seg/exp/weights/best.pt" --source "fb1.mp4"
 ```
 ### RESULTS
 <table>
