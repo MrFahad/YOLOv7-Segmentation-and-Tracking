@@ -5,7 +5,7 @@
 
 - Clone the repository
 ```
-git clone https://github.com/MrFahad/YOLOv7_Segmentation_and_Tracking.git
+git clone https://github.com/MrFahad/YOLOv7-Segmentation-and-Tracking.git
 ```
 - Goto the cloned folder.
 ```
